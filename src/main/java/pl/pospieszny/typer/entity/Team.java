@@ -22,6 +22,6 @@ public class Team {
     private Integer points;
 
     @NotBlank
-    private String group;
+    private String groupName;
 
 }
