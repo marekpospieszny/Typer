@@ -1,10 +1,13 @@
 package pl.pospieszny.typer.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "bets")
+@Data
 public class Bet {
 
     @Id
