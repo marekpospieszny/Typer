@@ -21,7 +21,7 @@ public class Team {
     @NotNull
     private Integer points;
 
-    @NotNull
-    private Integer group;
+    @NotBlank
+    private String group;
 
 }
