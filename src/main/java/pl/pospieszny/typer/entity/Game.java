@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "games")
@@ -25,5 +26,7 @@ public class Game {
 
     @NotNull
     private Integer secondTeamGoals;
+
+    private LocalDateTime dateTime;
 
 }
